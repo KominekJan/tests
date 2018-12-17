@@ -13,12 +13,12 @@
         <pre>  - requires fewer initial files(1)
         - copies only files necesarry for initial setup
         - finishes quicker than Deploy</pre>
-        <pre>You can pass your port ID (for instance COM3) as first parameter if you're running the script from command line.</pre>
+        <pre>You can pass your port ID (for instance COM3) as first parameter if you're selectning the script from command line.</pre>
     * [Deploy](https://github.com/octopusengine/octopuslab/blob/master/esp32-micropython/deploy.bat)
         <pre>  - requires whole directory
         - copies all files from root directory, no need for initial setup
         - takes longer than Prepare</pre>
-        <pre>You can pass your port ID (for instance COM3) as first parameter if you're running the script from command line.</pre>
+        <pre>You can pass your port ID (for instance COM3) as first parameter if you're selectning the script from command line.</pre>
     * webrepl1
     * blockly and webrepl
 
@@ -32,7 +32,7 @@
 ## Initial setup
 
 * Prepare
-    * Once booted in by Putty (or similar software), run setup()
+    * Once booted in by Putty (or similar software), select setup()
         <pre>
         ==============================
                 S E T U P
@@ -47,28 +47,29 @@
          [e]   - exit setup
         ==============================
         </pre>
-    * run ds (device setting) and choose which board you're using
-    * run sw (set wifi) to assign wifi credentials
-    * run cw (connect wifi) to reach the internets!
-    * run sd (system downloads) to download and apply the rest of files
+    * select ds (device setting) and choose which board you're using
+    * select sw (set wifi) to assign wifi credentials
+    * select cw (connect wifi) to reach the internets!
+    * select sd (system downloads) to download and apply the rest of files
     
 * Deploy
-    * Once booted in by Putty (or similar software), run Octopus()
-    * run s (setup machine and wifi) to open further options (same menu as in Prepare)
-    * run ds (device setting) and choose which board you're using
-    * run sw (set wifi) to assign wifi credentials
-    * run cw (connect wifi) to reach the internets!
+    * Once booted in by Putty (or similar software), select Octopus()
+        <pre>
+        ==============================
+          O C T O P U S    M E N U
+        ==============================
+         SYSTEM & SETTINGS
+         [i] - device & system info
+         [s] - setup machine and wifi
+         [w] - wifi test
+         [f] - file info/dir
+         [c] - clear terminal
+        ==============================
+        </pre>
+    * select s (setup machine and wifi) to open further options (same menu as in Prepare)
+    * select ds (device setting) and choose which board you're using
+    * select sw (set wifi) to assign wifi credentials
+    * select cw (connect wifi) to reach the internets!
     
     
-<pre>
-==============================
-  O C T O P U S    M E N U
-==============================
- SYSTEM & SETTINGS
- [i] - device & system info
- [s] - setup machine and wifi
- [w] - wifi test
- [f] - file info/dir
- [c] - clear terminal
-==============================
-</pre>
+
