@@ -30,6 +30,9 @@
  - /util/wifi_connect.py
 
 ## Initial setup
+
+* Prepare
+    * Once booted in by Putty (or similar software), run setup()
 <pre>
 ==============================
         S E T U P
@@ -44,21 +47,6 @@
  [e]   - exit setup
 ==============================
 </pre>
-
-* Prepare
-    * Once booted in by Putty (or similar software), run setup()|
-<pre>
-==============================
-  O C T O P U S    M E N U
-==============================
- SYSTEM & SETTINGS
- [i] - device & system info
- [s] - setup machine and wifi
- [w] - wifi test
- [f] - file info/dir
- [c] - clear terminal
-==============================
-</pre>
     * run ds (device setting) and choose which board you're using
     * run sw (set wifi) to assign wifi credentials
     * run cw (connect wifi) to reach the internets!
@@ -71,3 +59,16 @@
     * run sw (set wifi) to assign wifi credentials
     * run cw (connect wifi) to reach the internets!
     
+    
+<pre>
+==============================
+  O C T O P U S    M E N U
+==============================
+ SYSTEM & SETTINGS
+ [i] - device & system info
+ [s] - setup machine and wifi
+ [w] - wifi test
+ [f] - file info/dir
+ [c] - clear terminal
+==============================
+</pre>
