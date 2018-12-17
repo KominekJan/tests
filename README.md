@@ -33,20 +33,20 @@
 
 * Prepare
     * Once booted in by Putty (or similar software), run setup()
-<pre>
-==============================
-        S E T U P
-==============================
- [ds]  - device setting
- [sw]  - set wifi
- [cw]  - connect wifi
- [st]  - set time
- [sd]  - system download >
- (initial octopus modules)
- [si]  - system info
- [e]   - exit setup
-==============================
-</pre>
+        <pre>
+        ==============================
+                S E T U P
+        ==============================
+         [ds]  - device setting
+         [sw]  - set wifi
+         [cw]  - connect wifi
+         [st]  - set time
+         [sd]  - system download >
+         (initial octopus modules)
+         [si]  - system info
+         [e]   - exit setup
+        ==============================
+        </pre>
     * run ds (device setting) and choose which board you're using
     * run sw (set wifi) to assign wifi credentials
     * run cw (connect wifi) to reach the internets!
