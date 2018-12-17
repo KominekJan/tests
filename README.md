@@ -21,16 +21,16 @@
         <pre>- requires whole directory
         - copies all files from root directory, no need for initial setup
         - takes longer than Prepare</pre>
-        <pre>You **can** pass your port ID (for instance COM3) as first parameter if you're running the script from command line.</pre>
+        <pre>You can pass your port ID (for instance COM3) as first parameter if you're running the script from command line.</pre>
     * webrepl1
     * blockly and webrepl
 
 (1) Files required for Prepare are as follows: (directories included)
- boot_prepare.py
- /config/device.json
- /util/setup.py
- /util/sys_info.py
- /util/wifi_connect.py
+ - boot_prepare.py
+ - /config/device.json
+ - /util/setup.py
+ - /util/sys_info.py
+ - /util/wifi_connect.py
 
 ## Initial setup
 * Prepare
