@@ -4,8 +4,8 @@
 * install esptool.py [2] https://github.com/espressif/esptool
 * install ampy [3] https://github.com/adafruit/ampy 
     <pre>set AMPY_PORT=COM6
-ampy ls
-AMPY_BAUD=115200</pre>
+ ampy ls
+ AMPY_BAUD=115200</pre>
 * connect ESP32 and detect COM port
 * erase FLASH - During this phase the BOOT button needs to be pressed down until connection is established.
     <pre>esptool.py --chip esp32 -p /COM6 erase_flash</pre>
@@ -14,8 +14,8 @@ AMPY_BAUD=115200</pre>
 * Now choose one of these options:
     * [Prepare](https://github.com/octopusengine/octopuslab/blob/master/esp32-micropython/prepare.bat)
         <pre>- requires fewer initial files(1)
-    - copies only files necesarry for initial setup
-    - finishes quicker than Deploy</pre>
+        - copies only files necesarry for initial setup
+        - finishes quicker than Deploy</pre>
         <pre>You **can** pass your port ID (for instance COM3) as first parameter if you're running the script from command line.</pre>
     * [Deploy](https://github.com/octopusengine/octopuslab/blob/master/esp32-micropython/deploy.bat)
         <pre>- requires whole directory
