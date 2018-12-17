@@ -45,19 +45,27 @@
     * run sw (set wifi) to assign wifi credentials
     * run cw (connect wifi) to reach the internets!
     
-## Setup 
-
-```js
-  import { Component } from '@angular/core';
-  import { MovieService } from './services/movie.service';
-
-  @Component({
-    selector: 'app-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css'],
-    providers: [ MovieService ]
-  })
-  export class AppComponent {
-    title = 'app works!';
-  }
-```
+### Setup - visuals
+   ==============================
+          S E T U P
+   ==============================
+   [ds]  - device setting
+   [sw]  - set wifi
+   [cw]  - connect wifi
+   [st]  - set time
+   [sd]  - system download >
+   (initial octopus modules)
+   [si]  - system info
+   [e]   - exit setup
+   ==============================
+************************************
+   ==============================
+      O C T O P U S    M E N U
+   ==============================
+   SYSTEM & SETTINGS
+   [i] - device & system info
+   [s] - setup machine and wifi
+   [w] - wifi test
+   [f] - file info/dir
+   [c] - clear terminal
+   ==============================
