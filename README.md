@@ -75,20 +75,16 @@
 <pre>
 
 root
-Î
--boot.py
--main.py
-|
-+-+--assets
-  |
-  +--config (json config files - device/wifi/...)
-  |
-  +--lib 
-  |
-  +--pinouts (boards and soc type)
-  |
-  +--util-----+--setup
-  |           +--led/buzzer 
-  |           +--...
-  ...
+ ╟─boot.py
+ ╟─main.py
+ ╚╦═assets
+  ╠═config (json config files - device/wifi/...)
+  ║
+  ╠═lib
+  ║
+  ╠═pinouts (boards and soc type)
+  ║
+  ╠═util╦═setup
+  ║     ╠═led/buzzer
+  ╠═... ╠═...
 </pre>
