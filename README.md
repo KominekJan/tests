@@ -45,7 +45,8 @@
     * run sw (set wifi) to assign wifi credentials
     * run cw (connect wifi) to reach the internets!
     
-### Setup - visuals
+### Setup - visuals:
+
    ==============================
           S E T U P
    ==============================
