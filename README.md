@@ -3,11 +3,9 @@
 * download MicroPython [1] https://micropython.org/download#esp32
 * install esptool.py [2] https://github.com/espressif/esptool
 * install ampy [3] https://github.com/adafruit/ampy 
-    <pre>
-    set AMPY_PORT=COM6
+    <pre>set AMPY_PORT=COM6
     ampy ls
-    AMPY_BAUD=115200
-    </pre>
+    AMPY_BAUD=115200</pre>
 * connect ESP32 and detect COM port
 * erase FLASH - During this phase the BOOT button needs to be pressed down until connection is established.
     <pre>esptool.py --chip esp32 -p /COM6 erase_flash</pre>
