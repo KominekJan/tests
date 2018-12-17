@@ -1,8 +1,8 @@
 ## Windows:
-* install Python3 - [link](https://www.python.org/downloads/)
-* download MicroPython - [link](https://micropython.org/download#esp32)
-* install esptool.py - [link](https://github.com/espressif/esptool)
-* install ampy - [link](https://github.com/adafruit/ampy)
+* install Python3 - https://www.python.org/downloads/
+* download MicroPython - https://micropython.org/download#esp32
+* install esptool - https://github.com/espressif/esptool
+* install ampy - https://github.com/adafruit/ampy
 * connect ESP32 and detect COM port
 * erase FLASH - During this phase the BOOT button needs to be pressed down until connection is established.
     <pre>esptool.py --chip esp32 -p /COM6 erase_flash</pre>
@@ -69,5 +69,26 @@
     * select sw (set wifi) to assign wifi credentials
     * select cw (connect wifi) to reach the internets!
     
-    
 
+## File structure
+
+<pre>
+
+root
+Î
+-boot.py
+-main.py
+|
++-+--assets
+  |
+  +--config (json config files - device/wifi/...)
+  |
+  +--lib 
+  |
+  +--pinouts (boards and soc type)
+  |
+  +--util-----+--setup
+  |           +--led/buzzer 
+  |           +--...
+  ...
+</pre>
