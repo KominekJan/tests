@@ -47,28 +47,28 @@
     
 ### Setup - visuals:
 <pre>
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+==============================
         S E T U P
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
-[ds]  - device setting
-[sw]  - set wifi
-[cw]  - connect wifi
-[st]  - set time
-[sd]  - system download >
-(initial octopus modules)
-[si]  - system info
-[e]   - exit setup
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+==============================
+ [ds]  - device setting
+ [sw]  - set wifi
+ [cw]  - connect wifi
+ [st]  - set time
+ [sd]  - system download >
+ (initial octopus modules)
+ [si]  - system info
+ [e]   - exit setup
+==============================
 </pre>
 <pre>
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+==============================
   O C T O P U S    M E N U
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
-SYSTEM & SETTINGS
-[i] - device & system info
-[s] - setup machine and wifi
-[w] - wifi test
-[f] - file info/dir
-[c] - clear terminal
-\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=\=
+==============================
+ SYSTEM & SETTINGS
+ [i] - device & system info
+ [s] - setup machine and wifi
+ [w] - wifi test
+ [f] - file info/dir
+ [c] - clear terminal
+==============================
 </pre>
