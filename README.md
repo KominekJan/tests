@@ -45,8 +45,7 @@
          (initial octopus modules)
          [si]  - system info
          [e]   - exit setup
-        ==============================
-        </pre>
+        ==============================</pre>
     * select ds (device setting) and choose which board you're using
     * select sw (set wifi) to assign wifi credentials
     * select cw (connect wifi) to reach the internets!
@@ -64,8 +63,7 @@
          [w] - wifi test
          [f] - file info/dir
          [c] - clear terminal
-        ==============================
-        </pre>
+        ==============================</pre>
     * select s (setup machine and wifi) to open further options (same menu as in Prepare)
     * select ds (device setting) and choose which board you're using
     * select sw (set wifi) to assign wifi credentials
