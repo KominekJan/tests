@@ -31,7 +31,8 @@
 
 ## Initial setup
 * Prepare
-    * Once booted in by Putty (or similar software), run setup()
+------------ | -------------
+    * Once booted in by Putty (or similar software), run setup()|
     * run ds (device setting) and choose which board you're using
     * run sw (set wifi) to assign wifi credentials
     * run cw (connect wifi) to reach the internets!
@@ -39,7 +40,24 @@
     
 * Deploy
     * Once booted in by Putty (or similar software), run Octopus()
-    * run s (setup machine and wifi)
+    * run s (setup machine and wifi) to open further options
     * run ds (device setting) and choose which board you're using
     * run sw (set wifi) to assign wifi credentials
     * run cw (connect wifi) to reach the internets!
+    
+## Setup 
+
+```js
+  import { Component } from '@angular/core';
+  import { MovieService } from './services/movie.service';
+
+  @Component({
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    providers: [ MovieService ]
+  })
+  export class AppComponent {
+    title = 'app works!';
+  }
+```
