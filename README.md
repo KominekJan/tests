@@ -1,5 +1,5 @@
 ## Windows:
-* install Python3 
+* install Python3 - [link](https://www.python.org/downloads/)
 * download MicroPython - [link](https://micropython.org/download#esp32)
 * install esptool.py - [link](https://github.com/espressif/esptool)
 * install ampy - [link](https://github.com/adafruit/ampy)
