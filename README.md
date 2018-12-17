@@ -2,7 +2,8 @@
 * install Python3 
 * download MicroPython [1] https://micropython.org/download#esp32
 * install esptool.py [2] https://github.com/espressif/esptool
-* install ampy [3] https://github.com/adafruit/ampy <pre>
+* install ampy [3] https://github.com/adafruit/ampy 
+<pre>
 set AMPY_PORT=COM6
 ampy ls
 AMPY_BAUD=115200
