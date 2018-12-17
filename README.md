@@ -10,7 +10,7 @@
 </pre>
 * connect ESP32 and detect COM port
 * erase FLASH: 
-   > During this phase the BOOT button needs to be pressed down until connection is established.
+> During this phase the BOOT button needs to be pressed down until connection is established.
     <pre>esptool.py --chip esp32 -p /COM6 erase_flash</pre>
 * upload Micropython bin: 
     <pre>esptool.py --chip esp32 -p /COM6 write_flash -z 0x1000 ./down/esp32-20180821-v1.9.4-479-g828f771e3.bin</pre>
