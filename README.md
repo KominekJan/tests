@@ -30,7 +30,6 @@
  - /util/wifi_connect.py
 
 ## Initial setup
-### Setup - visuals:
 <pre>
 ==============================
         S E T U P
@@ -48,11 +47,6 @@
 
 * Prepare
     * Once booted in by Putty (or similar software), run setup()|
-    * run ds (device setting) and choose which board you're using
-    * run sw (set wifi) to assign wifi credentials
-    * run cw (connect wifi) to reach the internets!
-    * run sd (system downloads) to download and apply the rest of files
-    
 <pre>
 ==============================
   O C T O P U S    M E N U
@@ -65,6 +59,11 @@
  [c] - clear terminal
 ==============================
 </pre>
+    * run ds (device setting) and choose which board you're using
+    * run sw (set wifi) to assign wifi credentials
+    * run cw (connect wifi) to reach the internets!
+    * run sd (system downloads) to download and apply the rest of files
+    
 * Deploy
     * Once booted in by Putty (or similar software), run Octopus()
     * run s (setup machine and wifi) to open further options (same menu as in Prepare)
